@@ -1,9 +1,12 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-      <p className="bg-black">Aditya Srivastav</p>
+      <HomePage />
+      <Footer />
     </>
   );
 }
