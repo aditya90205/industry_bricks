@@ -1,8 +1,10 @@
-import AboutSection from "../components/AboutSection";
-import Card from "../components/Card";
-import Carousel from "../components/Carousel";
-import Header from "../components/Header";
-import SearchProperties from "../components/SearchProperties";
+import AboutPrivanaCards from "../components/HomePage/AboutPrivanaCards";
+import AboutSection from "../components/HomePage/AboutSection";
+import Card from "../components/HomePage/Card";
+import Carousel from "../components/HomePage/Carousel";
+import Header from "../components/HomePage/Header";
+import SearchProperties from "../components/HomePage/SearchProperties";
+import WhatWeDo from "../components/HomePage/WhatWeDo";
 
 const HomePage = () => {
   return (
@@ -12,6 +14,8 @@ const HomePage = () => {
       <Carousel />
       <SearchProperties />
       <Card />
+      <WhatWeDo />
+      <AboutPrivanaCards />
     </>
   );
 };
