@@ -106,7 +106,7 @@ const Card = () => {
         </div>
       </div>
       <div className="flex justify-center mt-4">
-        <button className="px-4 py-2 border border-gray-600 text-gray-700 font-martel hover:bg-green-700 hover:text-white transition-all rounded-md mb-3">
+        <button className="px-4 py-2 border border-gray-600 text-amber-400 font-martel bg-green-700 hover:bg-white hover:text-black transition-all lg:mt-[.5rem] rounded-md mb-2">
           All Locations
         </button>
       </div>

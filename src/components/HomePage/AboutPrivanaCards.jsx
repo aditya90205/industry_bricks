@@ -56,7 +56,7 @@ const AboutPrivanaCards = () => {
               {/* Link */}
               <a
                 href={card.link}
-                className="mt-4 inline-flex items-center text-blue-600 font-medium hover:underline"
+                className="mt-4 inline-flex items-center text-green-800 font-medium hover:underline"
               >
                 FIND OUT MORE
                 <svg

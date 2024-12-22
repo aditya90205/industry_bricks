@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-900 text-gray-300 py-10 text-center md:text-start">
+    <footer className="bg-green-900 text-amber-500 py-10 text-center md:text-start">
       <div className="container mx-auto px-4">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="">
               <img src={favicon} alt="logo" className="h-12 hidden md:inline" />{" "}
-              <h1 className="text-white text-2xl font-bold mb-4 cursor-pointer hover:text-gray-400 font-martel">
+              <h1 className="text-white text-2xl font-bold mb-4 cursor-pointer hover:text-white font-martel">
                 PRIVANA
               </h1>
             </div>
@@ -36,7 +36,7 @@ const Footer = () => {
               ].map((location) => (
                 <li
                   key={location}
-                  className="cursor-pointer hover:text-gray-400"
+                  className="cursor-pointer hover:text-white"
                 >
                   {location}
                 </li>
@@ -56,7 +56,7 @@ const Footer = () => {
                 "INVESTOR RELATIONS",
                 "PRIVANA SHARE PRICE",
               ].map((link) => (
-                <li key={link} className="cursor-pointer hover:text-gray-400">
+                <li key={link} className="cursor-pointer hover:text-white">
                   {link}
                 </li>
               ))}
@@ -67,19 +67,19 @@ const Footer = () => {
             <h2 className="text-lg font-semibold text-white mb-2">
               Get in Touch
             </h2>
-            <p className="cursor-pointer hover:text-gray-400">
+            <p className="cursor-pointer hover:text-white">
               +91 80 46464500
             </p>
-            <p className="cursor-pointer hover:text-gray-400">
+            <p className="cursor-pointer hover:text-white">
               webfeedback@privana.com
             </p>
             <h3 className="text-lg font-semibold text-white mt-4">
               CIN Details
             </h3>
-            <p className="cursor-pointer hover:text-gray-400">
+            <p className="cursor-pointer hover:text-white">
               PRIVANA LIMITED
             </p>
-            <p className="cursor-pointer hover:text-gray-400">
+            <p className="cursor-pointer hover:text-white">
               L45201KA1995PLC018475
             </p>
           </div>

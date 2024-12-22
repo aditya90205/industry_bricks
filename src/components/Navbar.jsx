@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="sticky top-0 z-20 w-full flex items-center justify-between px-4 py-2 bg-opacity-30 backdrop-blur-md text-white h-20 bg-green-900">
+      <nav className="sticky top-0 z-20 w-full flex items-center justify-between px-4 py-2 bg-opacity-30 backdrop-blur-md text-amber-500 h-20 bg-green-900">
         <button
-          className="text-white text-xl focus:outline-none w-[6.2rem]"
+          className="text-amber-400 text-xl focus:outline-none w-[6.2rem]"
           onClick={toggleSidebar}
         >
           MENU &#9776;

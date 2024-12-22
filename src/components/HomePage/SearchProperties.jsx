@@ -174,7 +174,7 @@ const SearchProperties = () => {
               onClick={() =>
                 alert(`City: ${selectedCity}, Project: ${selectedProject}`)
               }
-              className="flex items-center justify-center  bg-slate-400 text-white px-4 py-[.7rem] hover:bg-green-700  md:w-auto"
+              className="flex items-center justify-center  hover:bg-slate-400 text-amber-400 px-4 py-[.7rem] bg-green-700  md:w-auto"
             >
               <FaSearch />
               <span className="inline mx-2 md:hidden">Search</span>
