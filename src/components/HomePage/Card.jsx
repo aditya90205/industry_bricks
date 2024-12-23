@@ -86,7 +86,7 @@ const Card = () => {
   return (
     <>
       <div className="relative">
-        <div className="container max-w-[925px] lg:max-w-[1662px] mx-auto">
+        <div className="container max-w-[925px] lg:max-w-[1634px] mx-auto">
           <Slider {...settings}>
             {cities.map((city, index) => (
               <div key={index} className="px-3">
@@ -110,7 +110,7 @@ const Card = () => {
           All Locations
         </button>
       </div>
-      <div className="w-11/12 md:w-[55rem] lg:w-[103rem] mx-auto border-t mt-3"></div>
+      <div className="w-11/12 md:w-[55rem] lg:w-[63rem] mx-auto border-t mt-3"></div>
     </>
   );
 };

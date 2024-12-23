@@ -1,4 +1,4 @@
-import favicon from "../assets/favicon1.jpeg";
+import logo from "../assets/logo.png";
 import React from "react";
 
 const Footer = () => {
@@ -10,8 +10,8 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="flex flex-col">
             <div className="">
-              <img src={favicon} alt="logo" className="h-12 hidden md:inline" />{" "}
-              <h1 className="text-white text-2xl font-bold mb-4 cursor-pointer hover:text-white font-martel">
+              <img src={logo} alt="logo" className="h-20 w-24 hidden md:inline" />{" "}
+              <h1 className="text-amber-500 text-2xl font-bold mb-4 cursor-pointer hover:text-white font-martel">
                 PRIVANA
               </h1>
             </div>
