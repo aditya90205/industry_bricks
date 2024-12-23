@@ -40,7 +40,7 @@ const AboutSection = () => {
           At Privana Realty, we don’t just help you invest in properties—we help
           you invest in your future.
         </p>
-        <button className="px-4 py-2 border border-gray-600 text-amber-400 font-martel bg-green-700 hover:bg-white hover:text-black transition-all lg:mt-[3.5rem] rounded-md">
+        <button className="px-4 py-2 border border-gray-600 text-amber-400 font-martel bg-green-700 hover:bg-white hover:text-black transition-all lg:mt-[3.5rem] ">
           READ MORE
         </button>
       </div>
