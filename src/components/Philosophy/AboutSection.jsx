@@ -3,11 +3,12 @@ import mainImage from "../../../public/images/main.jpg";
 const AboutSection = () => {
   return (
     <section className="flex flex-col lg:flex-row  lg:justify-evenly px-6 lg:px-16 py-8 ">
-      <div className="hidden lg:block w-full lg:w-1/3 relative group lg:mr-10">
+      <div className="w-full lg:w-1/3 relative group lg:mr-10">
         <img
           src={mainImage}
           alt="built by PRIVANA"
-          className="w-full h-[39rem] object-cover  transform transition-transform duration-300 group-hover:scale-105 cursor-pointer"
+        //   className="w-full h-[39rem] object-cover  transform transition-transform duration-300 group-hover:scale-105 cursor-pointer"
+                  className="mb-5 lg:mb-0 w-1/2 mx-auto lg:w-full h-[27rem] lg:h-[39rem] object-cover  transform transition-transform duration-300 lg:group-hover:scale-105 cursor-pointer"
         />
       </div>
 
@@ -40,12 +41,15 @@ const AboutSection = () => {
           At Privana Realty, we don’t just help you invest in properties—we help
           you invest in your future.
         </p>
-        <button className="px-4 py-2 border border-gray-600 text-amber-400 font-martel bg-green-700 hover:bg-white hover:text-black transition-all lg:mt-[3.5rem] rounded-md">
-          READ MORE
-        </button>
+       
       </div>
     </section>
   );
 };
 
 export default AboutSection;
+
+
+
+
+

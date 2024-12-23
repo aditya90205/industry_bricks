@@ -110,7 +110,7 @@ const Card = () => {
           All Locations
         </button>
       </div>
-      <div className="w-11/12 md:w-[55rem] lg:w-[63rem] mx-auto border-t mt-3"></div>
+      <div className="w-11/12 md:w-[55rem] lg:w-[133rem] mx-auto border-t mt-3"></div>
     </>
   );
 };
